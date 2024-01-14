@@ -1,4 +1,4 @@
-# Data Structures and Algorithms (DSA) Practice
+# Data Structures and Algorithms (DSA) Practice 🚀
 This repository contains solutions to various Data Structures and Algorithms (DSA) questions implemented in C/C++. The purpose of this repository is to provide a resource for individuals studying DSA to practice and understand different problem-solving techniques.
 
 ### Table of Contents
