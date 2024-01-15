@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 https://leetcode.com/problems/palindrome-number/submissions/926159051/
 
 class Solution {
@@ -18,4 +19,26 @@ public:
             return false;
         }
     }
+=======
+https://leetcode.com/problems/palindrome-number/submissions/926159051/
+
+class Solution {
+public:
+    bool isPalindrome(long long  x) {
+        long long reverse=0;
+        long long temp = x;
+        long long rem;
+        while(temp>0){
+            rem = temp % 10;
+            reverse = (reverse*10) + rem;
+            temp = temp /10;
+        }
+        if(x==reverse){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+>>>>>>> b831a143b880d755a6f493e9f3f30f836a8fb1f5
 };
