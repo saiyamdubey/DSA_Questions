@@ -17,32 +17,34 @@ The repository is organized as follows:
 
 mathematica
 Copy code
-.
-├── Arrays
-│   ├── 01_TwoSum.cpp
-│   ├── 02_ThreeSum.cpp
-│   └── ...
-├── LinkedLists
-│   ├── 01_ReverseLinkedList.cpp
-│   ├── 02_DetectCycle.cpp
-│   └── ...
+
+
+├── Arrays <br>
+│   ├── 01_TwoSum.cpp <br>
+│   ├── 02_ThreeSum.cpp<br>
+│   └── ... <br>
+├── LinkedLists <br>
+│   ├── 01_ReverseLinkedList.cpp <br>
+│   ├── 02_DetectCycle.cpp <br>
+│   └── ... <br>
 ├── Trees
-│   ├── 01_InOrderTraversal.cpp
-│   ├── 02_LevelOrderTraversal.cpp
-│   └── ...
-├── Sorting
-│   ├── 01_BubbleSort.cpp
-│   ├── 02_QuickSort.cpp
-│   └── ...
-├── Searching
-│   ├── 01_BinarySearch.cpp
-│   ├── 02_LinearSearch.cpp
-│   └── ...
-├── DynamicProgramming
-│   ├── 01_Fibonacci.cpp
-│   ├── 02_LongestCommonSubsequence.cpp
-│   └── ...
-└── README.md
+│   ├── 01_InOrderTraversal.cpp <br>
+│   ├── 02_LevelOrderTraversal.cpp <br>
+│   └── ... <br>
+├── Sorting <br>
+│   ├── 01_BubbleSort.cpp <br>
+│   ├── 02_QuickSort.cpp <br>
+│   └── ... <br>
+├── Searching <br>
+│   ├── 01_BinarySearch.cpp <br>
+│   ├── 02_LinearSearch.cpp <br>
+│   └── ... <br>
+├── DynamicProgramming <br>
+│   ├── 01_Fibonacci.cpp <br>
+│   ├── 02_LongestCommonSubsequence.cpp <br>
+│   └── ... <br>
+└── README.md <br>
+
 Feel free to add new problems or suggest improvements to the existing ones.
 
 #### Getting Started
