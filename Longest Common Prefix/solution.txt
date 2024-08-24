@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& s) {
+        int ans = s[0].length(), n = s.size();
+        for(int i=1; i<n; i++){
+            int j = 0;
+            while(j<s[i].length() && s[i][j]==s[0][j])j++;
+            ans = min(ans, j);
+        }
+        return s[0].substr(0, ans);
+    }
+};
+
+// second aaproach
+
+class Solution {
+public:
+string longestCommonPrefix(vector<string>& strs) {
+    if (strs.size() == 0) {
+        return "";
+    }
+    string prefix = strs[0];
+    for (int i = 1; i < strs.size(); i++) {
+        while (strs[i].find(prefix) != 0) {
+            prefix = prefix.substr(0, prefix.length() - 1);
+            if (prefix.empty()) {
+                return "";
+            }
+        }
+    }
+    return prefix;
+//    Time Complexity: O(n)
+//    Space Complexity: O(1)
+}
+=======
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& s) {
+        int ans = s[0].length(), n = s.size();
+        for(int i=1; i<n; i++){
+            int j = 0;
+            while(j<s[i].length() && s[i][j]==s[0][j])j++;
+            ans = min(ans, j);
+        }
+        return s[0].substr(0, ans);
+    }
+};
+
+// second aaproach
+
+class Solution {
+public:
+string longestCommonPrefix(vector<string>& strs) {
+    if (strs.size() == 0) {
+        return "";
+    }
+    string prefix = strs[0];
+    for (int i = 1; i < strs.size(); i++) {
+        while (strs[i].find(prefix) != 0) {
+            prefix = prefix.substr(0, prefix.length() - 1);
+            if (prefix.empty()) {
+                return "";
+            }
+        }
+    }
+    return prefix;
+//    Time Complexity: O(n)
+//    Space Complexity: O(1)
+}
+>>>>>>> b831a143b880d755a6f493e9f3f30f836a8fb1f5
+};
